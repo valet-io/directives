@@ -23,6 +23,7 @@
     "karma": "~0.12.25",
     "karma-browserify": "~1.0.0",
     "karma-chai": "~0.1.0",
+    "karma-cli": "0.0.4",
     "karma-mocha": "~0.1.9",
     "karma-phantomjs-launcher": "~0.1.4",
     "mocha": "~2.0.1"
@@ -33,7 +34,10 @@
     "partialify": "~3.1.1"
   },
   "browserify": {
-    "transform": ["partialify", "browserify-shim"]
+    "transform": [
+      "partialify",
+      "browserify-shim"
+    ]
   },
   "browserify-shim": {
     "angular": "global:angular"
