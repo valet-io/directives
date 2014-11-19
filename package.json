@@ -1,0 +1,19 @@
+{
+  "name": "valet-io-directives",
+  "version": "1.0.0",
+  "description": "Shared directives",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valet-io/directives.git"
+  },
+  "author": "Ben Drucker <bvdrucker@gmail.com> (http://bendrucker.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valet-io/directives/issues"
+  },
+  "homepage": "https://github.com/valet-io/directives"
+}
